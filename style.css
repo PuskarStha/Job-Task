@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-width: 100vh ;
+    width: 100%;
+    background-color: #0082FF;
+}
+nav{
+    display: flex;
+    padding: 1%;
+    justify-content: center;
+  align-items: center;
+
+}
+.logo{
+    float: left;
+    padding-left: 1%;
+    padding-right: 5%;
+}
+
+.navmenu_links ul{
+    float: left;
+    display: flex;
+    justify-content: space-between;
+
+}
+li{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+a{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+   color: #ffffff;
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+a:hover{
+    color: #FF7B00;
+}
+.search{
+    margin-left: 25%;
+    width: 100%;
+    max-width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 2px 3px;
+    border-radius: 60px;
+    background-color: #ffffff;
+
+    
+}
+.search input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding-left: 10px;
+    color: #4a4b4d;
+}
+.search button img{
+    width: 25px;
+}
+.search button{
+    border: 0;
+    background-color: #FF7B00;
+    border-radius: 60px;
+}
+
+.login{
+
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.login a{
+    font-weight: bolder;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0082FF;
+    padding: 30px 0px;
+    border-radius: 0 0 150px 0 ;
+}
+.herosection{
+    margin-top: 8%;
+    width: 50%;
+    height: auto;
+    color: white;
+    position: relative;
+    padding-left: 8%;
+    padding-bottom: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    
+
+}
+.herosection h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+
+}
+.herosection p{
+    font-size: small;
+    padding-bottom: 35px;
+}
+.herosection button{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    color: #ffffff;
+    width: 180px;
+    height: 45px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #FF7B00;
+    box-shadow: 4px 2px 5px 0px #5a5858;
+
+}
+.cfa-btn{
+    transition-duration: 0.4s;
+}
+.cfa-btn:hover{
+    background-color: #4CAF50; /* Green */
+  color: white;
+}
+.picture{
+    width: 50%;
+}
+
+.picture img{
+   
+    width: 580;
+    height: 530px;
+}
+.streams{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color:#0082FF;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content{
+    
+    width: 100%;
+    height: 100%;
+    background-color:white ;
+    border-radius: 150px 0 0 0;
+    text-align: center;
+
+   
+    
+}
+.content h1{
+    padding-top: 5%;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FF7B00;
+    font-size: 50px;
+
+}
